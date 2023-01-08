@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <article>
+            <h1>aviation webpage</h1>
+            <figure>
+                <a href="#"><img src="/img/facebook.png" alt="facebook-pic"></a>
+                <a href="#"><img src="/img/instagram.png" alt="instagram-pic"></a>
+                <a href="#"><img src="/img/twitter.png" alt="twitter-pic"></a>
+                <a href="#"><img src="/img/youtube.png" alt="youtube-pic"></a>
+            </figure>
+        </article>
+        <section class="contact"></section>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <form method="post">
+            <fieldset>
+                <legend>Contact</legend>
+                <article>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" placeholder="age">
+                </article>
+                <article>
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date">
+                    <label for="time">Time:</label>
+                    <input type="time" name="time" id="time">
+                </article>
+                <article>
+                    <label for="favorite" >Your favorite plane:</label>
+                    <select name="favorite" id="favorite">
+                        <option value="disabled">select</option>
+                        <optgroup label="Boing">
+                            <option value="b737">B737</option>
+                            <option value="b777">B777</option>
+                            <option value="b787">B787</option>
+                        </optgroup>
+                        <optgroup label="Airbus">
+                            <option value="a320">A320</option>
+                            <option value="a350">A350</option>
+                            <option value="a380">A380</option>
+                        </optgroup>
+                        <optgroup label="Others">
+                            <option value="atr72">ATR72</option>
+                            <option value="dash8">DASH8</option>
+                            <option value="crj">CRJ</option>
+                            <option value="ejet">Ejet</option>
+                        </optgroup>
+                    </select>
+                </article>
+                <article>
+                    <label>Feedback:</label>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                </th>
+                                <th>
+                                    Awesome
+                                </th>
+                                <th>
+                                    Good
+                                </th>
+                                <th>
+                                    Not too good
+                                </th>
+                                <th>
+                                    Not good
+                                </th>
+                                <th>
+                                    bad
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Home page
+                                </td>
+                                <td>
+                                    <input type="radio" name="home" value="awesome">
+                                </td>
+                                <td>
+                                    <input type="radio" name="home" value="good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="home" value="not-too-good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="home" value="not-good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="home" value="bad">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    About page
+                                </td>
+                                <td>
+                                    <input type="radio" name="about" value="awesome">
+                                </td>
+                                <td>
+                                    <input type="radio" name="about" value="good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="about" value="not-too-good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="about" value="not-good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="about" value="bad">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Table page
+                                </td>
+                                <td>
+                                    <input type="radio" name="table" value="awesome">
+                                </td>
+                                <td>
+                                    <input type="radio" name="table" value="good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="table" value="not-too-good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="table" value="not-good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="table" value="bad">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Contact page
+                                </td>
+                                <td>
+                                    <input type="radio" name="contact" value="awesome">
+                                </td>
+                                <td>
+                                    <input type="radio" name="contact" value="good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="contact" value="not-too-good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="contact" value="not-good">
+                                </td>
+                                <td>
+                                    <input type="radio" name="contact" value="bad">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <article>
+                    <label for="text">Comment:</label>
+                    <textarea name="text" id="text" placeholder="Please write down your opinion."></textarea>
+                </article>
+                <article>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </article>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">sitemap</a></li>
+            <li><a href="#">policy</a></li>
+        </ul>
+        <span></span>
+        <p>
+            Copyright &copy; 2022 Designed by Takumi
+        </p>
+        <details>
+            <summary>Reference</summary>
+            <ul>
+                <li><a href="https://www.boeing.jp/">Boing</a></li>
+                <li><a href="https://www.airbus.com/ja">Airbus</a></li>
+                <li><a href="https://flyteam.jp/">Fly team</a></li>
+                <li><a href="https://www.starflyer.jp/">starflyer</a></li>
+                <li><a href="https://careerticket.jp/media/article/488/">career ticket</a></li>
+            </ul>
+        </details>
+    </footer> 
+</body>
+</html>
